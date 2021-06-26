@@ -2,6 +2,9 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    /* add to make sure product list doesn't get bigger than the screen */
+    max-height: 40rem; 
+    overflow: auto;
 }
 
 .total {
