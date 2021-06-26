@@ -23,7 +23,6 @@ const cartReducer = (state, action) => {
         //inside state.items, retrieve the index where item id === action item id 
         const existingCartItemIndex = findItemIndex(state.items,action.item.id); 
 
-        console.log('EXISTING CART ITEM ', existingCartItemIndex);
         //get the existing item position in the array
         const existingCartItem = state.items[existingCartItemIndex];
         let updatedItems;
